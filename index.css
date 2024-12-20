@@ -1,0 +1,115 @@
+.Header {
+    background: lightblue;
+
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-bar h1 {
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 40px;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar ul li {
+    margin-right: 40px;
+
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.nav-bar ul .active::after {
+    content: '';
+    width: 50%;
+    height: 5px;
+    background-color: orange;
+    display: flex;
+    position: relative;
+    margin-left: 15px;
+}
+
+input {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.signin {
+    background: transparent rgb(166, 166, 168);
+    border: none;
+}
+
+.start {
+    background: rgb(25, 10, 231);
+    color: white;
+    outline: none;
+    border: none;
+    margin-right: 20px;
+
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.content .content-left {
+    display: block;
+    width: 100%;
+}
+
+.content .content-left .info {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .content-left .info h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.content .content-left .info p {
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+
+.content .content-right {
+    display: block;
+    width: 50%;
+}
+
+.content .content-right img {
+    width: 400px;
+    height: auto;
+    position: relative;
+    margin-right: 50px;
+
+
+}
