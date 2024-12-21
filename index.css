@@ -1,6 +1,8 @@
 .Header {
     background: lightblue;
 
+    overflow: hidden;
+
 }
 
 .nav-bar {
@@ -97,6 +99,7 @@ input {
 .content .content-left .info p {
     font-size: 20px;
     margin-left: 30px;
+    margin-bottom: 20px;
     font-family: sans-serif;
 }
 
@@ -106,10 +109,184 @@ input {
 }
 
 .content .content-right img {
-    width: 400px;
+    width: 500px;
     height: auto;
     position: relative;
     margin-right: 50px;
+    padding-top: 20px;
 
 
+}
+
+.get-started {
+    background: rgb(25, 10, 231);
+    color: white;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+img {
+    width: 50px;
+    float: left;
+
+}
+
+.h {
+    float: left;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(81, 81, 162);
+
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.body {
+    background: rgb(234, 231, 231);
+    height: 200px;
+
+}
+
+.imagess {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    margin-right: 20px;
+
+    justify-content: space-between;
+}
+
+.imagess img {
+
+    max-height: 50px;
+    width: auto;
+    object-fit: contain;
+
+
+
+
+}
+
+.testimonial-card {
+    width: 350px;
+    background-color: #f4f4f8;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-right: 20px;
+}
+
+.quote-icon {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.testimonial-text {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.testimonial-author {
+    margin-top: 15px;
+    font-size: 15px;
+
+    text-align: left;
+}
+
+
+
+
+.steps-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.step {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.step-number {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.icon.blue {
+    background-color: #4a4dfc;
+}
+
+.icon.orange {
+    background-color: #fca85f;
+}
+
+.icon.yellow {
+    background-color: #ffc700;
+}
+
+.icon div {
+    width: 20px;
+    height: 5px;
+    background: black;
+    margin-bottom: 5px;
+}
+
+.icon div:last-child {
+    width: 15px;
+    background: #fff;
+}
+
+.step-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.step-description {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
