@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features Section</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  /* General Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #EAF6FF;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  /* Features Section Styling */
+  .features-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .content-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+
+  /* Features Grid */
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  /* Feature Card Styling */
+  .feature-card {
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .large-card {
+    padding: 25px;
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+  }
+
+  .card-description {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  /* Small Card Styling */
+  .small-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7FBFF;
+    height: 120px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .small-card-title {
+    padding: 0 10px;
+    line-height: 1.4;
+  }
+</style>
+
+<body>
+  <section class="features-section">
+    <div class="content-wrapper">
+      <h1 class="section-title">Features that blows mind</h1>
+      <p class="section-subtitle">
+        We so opinion friends me message as delight. Whole front do of plate heard oh ought.
+        His defective nor convinced residence own.
+      </p>
+      <div class="features-grid">
+        <!-- First Large Card -->
+        <div class="feature-card large-card">
+          <div class="icon" style="background-color: #FF725E;"></div>
+          <h3 class="card-title">Really boy law county she unable her sister</h3>
+          <p class="card-description">
+            We so opinion friends me message as delight. Whole front do of plate heard oh ought.
+          </p>
+        </div>
+
+        <!-- Second Large Card -->
+        <div class="feature-card large-card">
+          <div class="icon" style="background-color: #5E82FF;"></div>
+          <h3 class="card-title">Among sex are leave law built now</h3>
+          <p class="card-description">
+            We so opinion friends me message as delight. Whole front do of plate heard oh ought.
+          </p>
+        </div>
+
+        <!-- Third Small Card -->
+        <div class="feature-card small-card">
+          <h3 class="small-card-title">Merits behind on afraid or warmly</h3>
+        </div>
+
+        <!-- Fourth Small Card -->
+        <div class="feature-card small-card">
+          <h3 class="small-card-title">Believing neglected so so allowance existence</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
